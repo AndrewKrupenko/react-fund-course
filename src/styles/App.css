@@ -25,3 +25,11 @@
 .alignCenter {
     text-align: center;
 }
+
+.separator {
+    margin: 15px 0;
+}
+
+.createUserButton {
+    margin-top: 30px
+}
