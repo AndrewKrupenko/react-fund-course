@@ -2,7 +2,7 @@ import MainInput from "./UI/input/MainInput"
 import MainButton from "./UI/button/MainButton"
 import {useState} from "react"
 
-const PostForm = ({create}) => {
+const PostForm = ({ create }) => {
 
   const [post, setPost] = useState({title: '', description: ''})
 

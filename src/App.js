@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="App">
       <MainButton rootClass="createUserButton" onClick={() => setIsModalVisible(true)}>
-        Create a user
+        Create a post
       </MainButton>
       <MainModal visible={isModalVisible} setVisible={setIsModalVisible}>
         <PostForm create={createPost} />

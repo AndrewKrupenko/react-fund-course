@@ -1,4 +1,4 @@
-const MainSelect = ({options, defaultValue, value, onChange}) => {
+const MainSelect = ({ value, onChange, defaultValue, options }) => {
   return (
     <select
       value={value}

@@ -1,6 +1,6 @@
 import classes from './MainModal.module.css'
 
-const MainModal = ({children, visible, setVisible}) => {
+const MainModal = ({ children, visible, setVisible }) => {
 
   const rootClasses = [classes.mainModal]
 
@@ -10,10 +10,7 @@ const MainModal = ({children, visible, setVisible}) => {
 
   return (
     <div className={rootClasses.join(' ')} onClick={() => setVisible(false)}>
-      <div
-        className={classes.mainModalContent}
-        onClick={e => e.stopPropagation()}
-      >
+      <div className={classes.mainModalContent} onClick={e => e.stopPropagation()}>
         {children}
       </div>
     </div>

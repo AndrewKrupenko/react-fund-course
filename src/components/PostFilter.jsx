@@ -1,7 +1,7 @@
 import MainInput from "./UI/input/MainInput"
 import MainSelect from "./UI/select/MainSelect"
 
-const PostFilter = ({filter, setFilter}) => {
+const PostFilter = ({ filter, setFilter }) => {
   return (
     <div>
       <MainInput
