@@ -1,10 +1,10 @@
 import MainButton from "./UI/button/MainButton"
 
-const PostItem = ({ post, number, remove }) => {
+const PostItem = ({ post, remove }) => {
   return (
     <div className="post">
       <div className="post__content">
-        <strong>{number}. {post.title}</strong>
+        <strong>{post.id}. {post.title}</strong>
         <div>
           {post.body}
         </div>
