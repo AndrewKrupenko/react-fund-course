@@ -6,11 +6,13 @@
 
 #root {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .App {
-    width: 800px;
+    max-width: 800px;
+    padding: 0 10px;
 }
 
 .post {
@@ -20,6 +22,10 @@
     margin-top: 15px;
     justify-content: space-between;
     align-items: center;
+}
+
+.post__btns {
+    display: flex;
 }
 
 .alignCenter {
@@ -62,4 +68,23 @@
 .page__current {
     border: 2px solid orange;
     font-weight: bold;
+}
+
+.navbar {
+    background: lightgray;
+    height: 50px;
+    width: 100%;
+}
+
+.links-wrapper {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding: 0 15px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.navbar__links {
+    margin-left: auto;
 }
