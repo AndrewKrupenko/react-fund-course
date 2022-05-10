@@ -9,7 +9,7 @@ import PostService from "../API/PostService"
 import Loader from "../components/UI/loader/Loader"
 import {useFetching} from "../hooks/useFetching"
 import Pagination from "../components/UI/pagination/Pagination"
-import {getPageCount} from "../utils/pages";
+import {getPageCount} from "../utils/pages"
 
 function Posts() {
 
